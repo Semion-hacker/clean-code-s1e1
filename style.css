@@ -122,12 +122,12 @@
 .list__li > .text__input {
   width: 226px;
 }
-.button.delete .task__img {
+.delete .task__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .task__img:hover {
+.delete .task__img:hover {
   transform: rotateZ(0);
 }
 
@@ -147,6 +147,6 @@
   width: 224px;
 }
 
-.list .list__li .label-task {
+.list .list__li.editMode .label-task {
   display: none;
 }
