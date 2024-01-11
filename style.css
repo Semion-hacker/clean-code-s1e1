@@ -132,7 +132,7 @@
 }
 
 /* Completed */
-#completed-tasks .label-task {
+#completed-tasks .task__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -142,7 +142,7 @@
   display: none;
 }
 
-.list .list__li .text__input {
+.list .list__li.editMode .text__input {
   display: inline-block;
   width: 224px;
 }
